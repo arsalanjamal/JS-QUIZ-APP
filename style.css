@@ -1,0 +1,136 @@
+body{
+    background-image: url("quizImage.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+div#startQuiz{
+    width: 400px;
+    height: auto;
+    margin: 100px auto 0px auto;
+    text-align: center;
+    
+}
+h1{
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#startButton{
+    width: 150px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px 10px;
+    margin-top: 40px;
+}
+#startButton:active{
+    box-shadow: inset 5px 5px 5px;
+}
+
+sub{
+    font-size: 15px;
+    margin-left: -20px;
+}
+div#questionDiv{
+    position: absolute;
+    left: 315px;
+    top: 150px;
+    width: 700px;
+    min-height: 200px;
+    max-height: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 5px;
+
+}
+p#ques{
+    border: 2px solid seagreen;
+    border-radius: 10px;
+    padding: 20px 30px;
+    clear: right;
+    background-color: palegreen;
+    color: black;
+    margin-bottom: 50px;
+    
+}
+#timer{
+    width: 200px;
+    float: right;
+    font-size: 16px;
+}
+ul{
+    list-style-type: none;
+    width: 500px;
+    
+}
+li{
+    margin-left: -30px; 
+    margin-bottom: 10px;
+}
+
+#nextButton{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    background-color: transparent;
+    border-radius: 12px;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+#nextButton:active{
+    box-shadow: inset 5px 5px 5px;
+}
+div#scoreDiv{
+    position: absolute;
+    top: 130px;
+    left: 340px;
+    width: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    
+}
+table{
+    margin: 50px auto 50px auto;
+    text-align: center;
+    border-spacing: 30px 5px;
+   
+}
+th, td{
+    
+    padding: 30px 20px 20px 30px;
+    border-radius: 15px;
+    
+}
+th
+{
+    border-bottom: 5px solid darkgray;
+    border-right: 5px solid darkgray;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: darkcyan;
+    opacity: 0.7;
+    width: 250px;
+    
+    
+}
+td#score, td#answer{
+    font-size: 30px;
+    background-color: lightseagreen;
+    font-weight: normal;
+    opacity: 0.7;
+}
+p#result{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
